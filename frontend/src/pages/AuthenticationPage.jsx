@@ -49,8 +49,7 @@ const AuthenticationPage = ({ mode, role }) => {
             }
 
             if (role === "Seller") {
-                const shopName = event.target.shopName.value;
-
+               const shopName = event.target.shopName.value;
                 if (!shopName) {
                     if (!shopName) setShopNameError(true);
                     return;
@@ -265,3 +264,4 @@ const StyledTypography = styled.h4`
     color: #2c2143;
     margin-bottom: 16px;
 `;
+
