@@ -17,10 +17,10 @@ const ShowOrders = () => {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Added To Cart" {...a11yProps(0)} />
+          <Tab label="Add Products" {...a11yProps(0)} />
           <Tab label="Out For Delivery" {...a11yProps(1)} />
-          <Tab label="Completed Orders" {...a11yProps(2)} />
-          <Tab label="Cancelled Orders" {...a11yProps(3)} />
+          {/* <Tab label="Completed Orders" {...a11yProps(2)} />
+          <Tab label="Cancelled Orders" {...a11yProps(3)} /> */}
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
@@ -29,12 +29,12 @@ const ShowOrders = () => {
       <CustomTabPanel value={value} index={1}>
         <OutForDeliverySection />
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
+      {/* <CustomTabPanel value={value} index={2}>
         0 Completed Orders
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
         0 Cancelled Orders
-      </CustomTabPanel>
+      </CustomTabPanel> */}
     </Box>
   );
 }

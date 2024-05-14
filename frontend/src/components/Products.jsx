@@ -36,7 +36,6 @@ const Products = ({ productData }) => {
     setPopupMessage('You have to login or register first');
     setShowPopup(true);
   };
-
   const handlePageChange = (event, value) => {
     setCurrentPage(value);
   };

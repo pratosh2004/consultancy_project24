@@ -44,7 +44,13 @@ const OutForDeliverySection = () => {
                 >
                     View Product
                 </BlueButton >
-                
+                {/* <GreenButton
+                    onClick={() => {
+                        navigate("/Seller/orders/customers/" + row.productID)
+                    }}
+                >
+                    Show Customers
+                </GreenButton > */}
             </>
         );
     };
