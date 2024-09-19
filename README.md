@@ -72,5 +72,5 @@ The Backend API will be running at `localhost:5000`.
 # Deployment
 * Render - server side
 * Vercel - client side
-* depolyed link consultancy-project24-6pcw.vercel.app
+* depolyed link =https://consultancy-project24-6pcw-ntvtjquqo-pratosh2004s-projects.vercel.app/
 
