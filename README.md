@@ -42,11 +42,6 @@ ShopCart is an ecommerce site developed using the MERN (MongoDB, Express.js, Rea
 
 # Installation
 
-```sh
-git clone https://github.com/Yogndrr/MERN-Ecommerce-Site.git
-```
-Open 2 terminals in separate windows/tabs.
-
 Terminal 1: Setting Up Backend 
 <br><br>
 Create a env file and then add your mongodb link and also jwt secret key
@@ -77,4 +72,5 @@ The Backend API will be running at `localhost:5000`.
 # Deployment
 * Render - server side
 * Vercel - client side
+* depolyed link consultancy-project24-6pcw.vercel.app
 
